@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+html {
+    height: 100%;
+    font-size: 20px;
+}
+  
+body {
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+
+.nav {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+
+}
+
+main {
+    padding: 1em;
+    background: #ffffff;
+}
+
+
+footer {
+    background-color: #b9c0c4;
+}
